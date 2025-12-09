@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'octofit_tracker',
-    'octofit_tracker.models',
     'rest_framework',
     'djongo',
     'corsheaders',
@@ -90,7 +89,7 @@ DATABASES = {
             'username': '',
             'password': '',
             'authSource': 'admin',
-            'authMechanism': '',
+            # 'authMechanism': 'DEFAULT',
         },
     }
 }
